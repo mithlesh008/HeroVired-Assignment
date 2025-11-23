@@ -1,4 +1,7 @@
-import re
+#  In DevOps, security is a crucial aspect, and ensuring strong passwords is essential. 
+# Create a Python script to check the strength of the password. 
+
+import re 
 # In Python, re is the regular expression module. It stands for “regular expressions” and is used to 
 # search, match, and manipulate text using patterns.
 pattern = r"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%]).+$"
